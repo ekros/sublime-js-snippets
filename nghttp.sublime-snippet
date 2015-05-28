@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+\$http({
+  method: '${1:}', 
+  url: '${2:}', 
+  dataType: '${3:}'})
+.success(function(data) {
+	${4:}
+}).error(function(data) {
+	${5:}
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>nghttp</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.javascript</scope> -->
+</snippet>

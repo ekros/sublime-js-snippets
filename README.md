@@ -1,2 +1,2 @@
 # sublime-js-snippets
-Common JS snippets for Sublime Text
+JS/Angular snippets for Sublime Text
